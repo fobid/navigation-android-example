@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.fobid.navigation.ui.fragments.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/f_home">
+
+        <action
+            android:id="@+id/action_home_to_user"
+            app:destination="@id/user_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.fobid.navigation.ui.fragments.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/f_search" />
+
+    <fragment
+        android:id="@+id/gallery"
+        android:name="com.fobid.navigation.ui.fragments.GalleryFragment"
+        android:label="gallery"
+        tools:layout="@layout/f_gallery" />
+
+    <fragment
+        android:id="@+id/bookmark"
+        android:name="com.fobid.navigation.ui.fragments.BookmarkFragment"
+        android:label="bookmark"
+        tools:layout="@layout/f_bookmark" />
+
+    <fragment
+        android:id="@+id/my_page"
+        android:name="com.fobid.navigation.ui.fragments.MyPageFragment"
+        android:label="my page"
+        tools:layout="@layout/f_my_page" />
+
+    <fragment
+        android:id="@+id/user_fragment"
+        android:name="com.fobid.navigation.ui.fragments.UserDetailsFragment"
+        android:label="user"
+        tools:layout="@layout/f_user_details" />
+</navigation>

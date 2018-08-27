@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="home" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="search" />
+
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="gallery" />
+
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="bookmark" />
+
+    <item
+        android:id="@+id/my_page"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="my page" />
+</menu>
